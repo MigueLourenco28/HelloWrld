@@ -1,18 +1,87 @@
 <!DOCTYPE html>
 <head>
-    <title> Hello Wrld </title>
+    <title>Hello Wrld</title>
+    <style>
+        body {
+            background: black;
+            color: white;
+            font-family: "Courier New", Courier, monospace;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: rgb(0, 0, 0);
+            padding: 20px;
+        }
+        h1 {
+            white-space: pre;
+            text-align: center;
+            line-height: 1.2;
+            margin: 0;
+            padding: 0;
+        }
+        section {
+            background: black;
+            color: white;
+            padding: 20px;
+            display: inline-block; /*Make section blocks next to eachother and not on top*/
+        }
+        div {
+            background: red;
+            margin: auto;
+            width: 100px;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        li {
+            display: inline-block;
+            margin-right: 20px; /*= margin: 0 20px 0 0*/
+        }
+        footer {
+            background: rgb(0, 0, 0);
+            padding: 10px 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1> User Management </h1> 
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Users</li>
+                <li>Posts</li>
+            </ul>
+        </nav>
+        <h1> _    _      _ _     __          __    _     _ </h1>
+        <h1>| |  | |    | | |    \ \        / /   | |   | |</h1>
+        <h1>| |__| | ___| | | __  \ \  /\  / /_ __| | __| |</h1>
+        <h1>|  __  |/ _ \ | |/  \  \ \/  \/ /| '__| |/ _` |</h1>
+        <h1>| |  | |  __/ | | () |  \  /\  / | |  | | (_| |</h1>
+        <h1>|_|  |_|\___|_|_|\__/    \/  \/  |_|  |_|\__,_|</h1>
+    </header>
     <section> 
-    <h2> Operations available: </h2> 
-    <ul>
-        <li> <a href="http://localhost:5555/addUser.html">Add User</a></li> 
-        <li> <a href="http://localhost:5555/editUser.html">Edit User</a></li>
-        <li> <a href="http://localhost:5555/cgi-bin/listUsers.py">List Users</a></li> 
-        <li> <a href="http://localhost:5555/removeUser.html">Remove User</a></li>
-        <li> <a href="http://localhost:5555/listUsersJS.html">Listing Users (javascript)</a></li> 
-   	</ul>
+        <h2> User Operations available: </h2> 
+        <ul>
+            <li> <a href="http://localhost:5555/addUser.html">Add User</a></li> 
+            <li> <a href="http://localhost:5555/editUser.html">Edit User</a></li>
+            <li> <a href="http://localhost:5555/cgi-bin/listUsers.py">List Users</a></li> 
+            <li> <a href="http://localhost:5555/removeUser.html">Remove User</a></li>
+            <li> <a href="http://localhost:5555/listUsersJS.html">Listing Users (javascript)</a></li> 
+   	    </ul>
     </section>
+    <section>
+        <h2> Post Operations available: </h2>
+        <ul>
+            <li> <a href="http://localhost:5555/addUser.html">Add Post</a></li>
+            <li> <a href="http://localhost:5555/editUser.html">Edit Post</a></li>
+            <li> <a href="http://localhost:5555/cgi-bin/listUsers.py">List Posts</a></li>
+            <li> <a href="http://localhost:5555/removeUser.html">Remove Post</a></li>
+            <li> <a href="http://localhost:5555/listUsersJS.html">Listing Posts (javascript)</a></li>
+   	    </ul>
+    </section>
+    <footer>Thank you for visiting!</footer>
 </body>
 </html>

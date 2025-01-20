@@ -37,8 +37,8 @@ except email != confirm_email as er:
 db_connection.commit()
 db_connection.close()
 
-print('<h2> A new contact was added ' + \
+print('<h2> A new user was added ' + \
   	user_name +  '</h2> <p>')
-print("""  <p> <a href="listContacts.py" > Return to Contact List. </a> </p>
+print("""  <p> <a href="listUsers.py" > Return to User List. </a> </p>
 </body>
 </html>""")
